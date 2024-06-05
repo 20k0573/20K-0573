@@ -16,7 +16,7 @@ const splashScreen = {
 // Summary And Greeting Section
 
 const illustration = {
-  animated: true // Set to false to use static SVG
+  animated: false // Set to false to use static SVG
 };
 
 const greeting = {
@@ -26,7 +26,7 @@ const greeting = {
     "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1z-bPXaMdRIplEm8hVYFxsCxRUHW0kl_q/view?usp=drive_link", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1z-bPXaMdRIplEm8hVYFxsCxRUHW0kl_q/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -36,9 +36,9 @@ const socialMediaLinks = {
   github: "https://github.com/sufyan0573",
   linkedin: "https://www.linkedin.com/in/sufyan/",
   gmail: "ahmedsufyan0573@gmail.com",
-  gitlab: "https://gitlab.com/sufyan",
+  // gitlab: "https://gitlab.com/sufyan",
   facebook: "https://www.facebook.com/sufyan",
-  medium: "https://medium.com/@sufyan",
+  // medium: "https://medium.com/@sufyan",
   stackoverflow: "https://stackoverflow.com/users/10422806/sufyan",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
@@ -82,11 +82,11 @@ https://fontawesome.com/icons?d=gallery */
     },
     {
       skillName: "C",
-      fontAwesomeClassname: "fab fa-c"
+      fontAwesomeClassname: "fab fa-dev-c++"
     },
     {
       skillName: "C++",
-      fontAwesomeClassname: "fab fa-c++"
+      fontAwesomeClassname: "fab fa-dev-c"
     },
     {
       skillName: "Python",
@@ -110,11 +110,11 @@ https://fontawesome.com/icons?d=gallery */
     },
     {
       skillName: "ML",
-      fontAwesomeClassname: "fab fa-ml"
+      fontAwesomeClassname: "fab fa-machine-learning"
     },
     {
       skillName: "Matlab",
-      fontAwesomeClassname: "fab fa-matlab"
+      fontAwesomeClassname: "fab fa-matrix-laboratory"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -132,8 +132,8 @@ const educationInfo = {
       duration: "August 2020 - June 2024",
       desc: "Participated in the research of Karachi Transportation and published 1 paper.",
       descBullets: [
-        "Collected buses and chinchi data manually.",
-        "Developed a flutter based android application named EasyRasta."
+        "Secured 2nd position in 4th semester.",
+        "Earned Dean's list of certificate."
       ]
     },
     {
